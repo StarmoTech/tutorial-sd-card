@@ -23,8 +23,8 @@ void setup() {
     Serial.print("pisanje po dok. test.txt...");     // ispiši tekst za serial monitor
     myFile.println("testno pisanje :)");             // zapiši na karicu ovaj tekst
     myFile.println("test 1, 2, 3.");                 // ispiši u novi red tekst
-    for (int i = 0; i < 20; i++) {                   // koristi for petlju od 0 do 19
-    myFile.println(i);                               // ispiši vrijednosti petlje                                             
+    for (int i = 0; i < 20; i++)                     // koristi for petlju od 0 do 19
+      myFile.println(i);                             // ispiši vrijednosti petlje                                             
   
     myFile.close();                                  // ZATVORI DOKUMENT
     Serial.println("Uspješno završeno!");            // ispiši na serial monitor               
